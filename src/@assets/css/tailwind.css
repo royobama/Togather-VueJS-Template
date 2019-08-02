@@ -1,0 +1,51 @@
+/* main.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1{
+    font-size: 32px;   
+}
+
+h2{
+    font-size: 24px;
+}
+
+h6{
+    font-size: 16px;
+}
+
+p{
+    font-size: 13px;
+}
+
+.mobile-size{
+    width: 375px;
+    height: 667px;
+}
+
+body, html{
+    background-color: #ECF0F8;
+    font-family: GT Walsheim Pro !important;
+}
+
+.animation{
+    transition: all 0.5s cubic-bezier(0.69, 0.04, 0.31, 0.9);
+}
+
+@font-face {
+    font-family: GT Walsheim Pro;
+    src: local("GT Walsheim Pro Regular"),local("GTWalsheimProRegular"),url(../@fonts/GTWalsheimProRegular.woff2) format("woff2"),url(../@fonts/GTWalsheimProRegular.woff) format("woff"),url(../@fonts/GTWalsheimProRegular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal
+  }
+  
+  @font-face {
+    font-family: GT Walsheim Pro;
+    src: local("GT Walsheim Pro Bold"),local("GTWalsheimProBold"),url(../@fonts/GTWalsheimProBold.woff2) format("woff2"),url(../@fonts/GTWalsheimProBold.woff) format("woff"),url(../@fonts/GTWalsheimProBold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal
+  }
+  
+
+  

@@ -5,18 +5,12 @@ import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
 
-// Layouts
-import Default from '@/layouts/Default.vue';
-
 // Style
-import '@/assets/css/tailwind.css'
+import '@/@assets/css/tailwind.css'
 
 // API
-import Api from "@/api/index.js";
+import Api from "@/@api/index.js";
 Vue.prototype.$api = Api;
-
-
-Vue.component('default-layout', Default);
 
 Vue.config.productionTip = false;
 
